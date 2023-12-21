@@ -20,6 +20,6 @@ aws cloudformation deploy \
     # If the deploy succeeded, show the DNS name of the created instance
 if [ $? -eq 0 ]; then
   aws cloudformation list-exports \
-    --profile awsbootstrap \
+    --profile biglearning27 \
     --query "Exports[?Name=='InstanceEndpoint'].Value" 
 fi
