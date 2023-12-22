@@ -3,7 +3,7 @@ source aws_credentials.sh
 
 STACK_NAME=awsbootstrap
 REGION=us-east-2
-CLI_PROFILE=biglearning27
+CLI_PROFILE=awsbootstrap
 EC2_INSTANCE_TYPE=t2.micro 
 
 GH_ACCESS_TOKEN=$(cat ~/.github/aws-bootstrap-access-token)
